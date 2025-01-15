@@ -1,0 +1,32 @@
+{
+    "logger": "debug",
+    "email": {
+        "enable_email": true,
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "sender_email": "bee.tree.germany@googlemail.com",
+        "sender_password": "<password>",
+        "recipient_email": "bee.tree.germany@googlemail.com",
+        "subject": "Youtube-Bot"
+    },
+    "stream_settings": {
+        "title": "Live vom Bienenbaum",
+        "description": "Live vom Bienenbaum mitten im Wald auf der Schw\u00e4bischen Alb \n Kontakt: bee.tree.germany@gmai.com",
+        "privacy": "private",
+        "stream_id": "<stream_id>",
+        "tags": [
+            "wildbienen",
+            "wilde bienen",
+            "wilde honigbienen",
+            "bienenbaum",
+            "bienen im baum",
+            "wald"
+        ],
+        "category": 28,
+        "Created with YoutubeAPI": "",
+        "broadcast_id": "<broadcast_id>"
+    },
+    "youtube_settings": {
+        "credentials_file": "client-secret-bee-tree-germany.secret"
+    }
+}
